@@ -1,9 +1,11 @@
 import './home.css';
 import { Link } from "react-router-dom";
+import { useTelegram } from '../../hooks/useTelegram';
 export const Home = () => {
+    const {close} = useTelegram();
     return(
         <div className="home-container">
-            <button type="button" className='close-btn'></button>
+            <button type="button" className='close-btn' onClick={close}></button>
             <header>
             <h1 className='main-title'>Yurii Pochtiennykh</h1>
             <ul className='expertise-list'>
@@ -11,12 +13,12 @@ export const Home = () => {
                 <li>Designer</li>
             </ul>
             </header>
-            <section className='section-one'>
+            <section className='section section-one'>
             <p className='section-text'>I'm always looking for opportunities to enhance my skills and knowledge, and my last win is Front End developments expertise...</p>
             <Link className='read-more'>Read more</Link>
             </section>
-            <section className='section-one'>
-            <p className='section-text'>I'm always looking for opportunities to enhance my skills and knowledge, and my last win is Front End developments expertise...</p>
+            <section className='section section-two'>
+            <p className='section-text'>I have experience in various areas of design. Years ago I started out as a outdoor advertising designer...</p>
             <Link className='read-more'>Read more</Link>
             </section>
         </div>

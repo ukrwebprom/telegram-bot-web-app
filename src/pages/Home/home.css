@@ -25,17 +25,26 @@
     list-style: none;
     font-size: 12px;
 }
-.section-one {
-    background-image: url('../../images/photo.jpg');
-    background-size: cover;
-    background-position: bottom left;
-    min-height: 350px;
+.section {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding:15px;
     gap:10px;
+}
+.section-one {
+    background-image: url('../../images/photo.jpg');
+    background-size: cover;
+    background-position: bottom left;
+    min-height: 350px;
+}
+.section-two {
+    background-color: blueviolet;
+/*     background-image: url('../../images/photo.jpg'); */
+    background-size: cover;
+    background-position: bottom left;
+    min-height: 200px;
 }
 .section-text {
     font-size: 12px;
