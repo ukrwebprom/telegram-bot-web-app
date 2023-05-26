@@ -5,8 +5,6 @@ import { Routes, Route } from "react-router-dom";
 import { Home } from './pages/Home/Home';
 
 function App() {
-  const {onToggleButton, tg} = useTelegram();
-  tg.MainButton.show();
   return (
     <div>
       <Routes>
