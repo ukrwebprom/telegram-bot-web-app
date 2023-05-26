@@ -3,6 +3,7 @@
     padding: 20px;
     display:flex;
     flex-direction: column;
+    gap:10px;
 }
 .close-btn {
     width:25px;
@@ -23,7 +24,6 @@
 .expertise-list {
     list-style: none;
     font-size: 12px;
-    margin-bottom: 20px;
 }
 .section-one {
     background-image: url('../../images/photo.jpg');
