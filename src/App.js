@@ -1,12 +1,13 @@
 import './App.css';
 import { Button } from './components/Botton/Button';
+import { useTelegram } from './hooks/useTelegram';
 function App() {
+  const {onToggleButton} = useTelegram();
 
-  const tg = window.Telegram.WebApp;
   return (
     <div className="App">
       work
-      <Button>text</Button>
+      <Button onClick={onToggleButton}>text</Button>
     </div>
   );
 }
