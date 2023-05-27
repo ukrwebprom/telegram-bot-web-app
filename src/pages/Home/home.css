@@ -17,6 +17,7 @@
     position:absolute;
     top:20px;
     right:20px;
+    color:var(--tg-theme-text-color);
 }
 .main-title {
     font-size: 19px;
