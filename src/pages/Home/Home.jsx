@@ -29,11 +29,8 @@ export const Home = () => {
       <div className="section-row">
         <div className="section-col">
           <section className="section section-two">
-            <h2 className="section-title">
-              Games
-            </h2>
           </section>
-          <section className="section section-two">
+          <section className="section section-three">
             <p className="section-text">
               I have experience in various areas of design. Years ago I started
               out as a outdoor advertising designer...
