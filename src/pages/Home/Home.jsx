@@ -1,11 +1,13 @@
 import './home.css';
 import { Link } from "react-router-dom";
 import { useTelegram } from '../../hooks/useTelegram';
+import {ReactComponent as CloseIcon} from '../../images/close.svg';
+
 export const Home = () => {
     const {close} = useTelegram();
     return(
         <div className="home-container">
-            <button type="button" className='close-btn' onClick={close}></button>
+            <button type="button" className='close-btn' onClick={close}><CloseIcon className='close-icon'/></button>
             <header>
             <h1 className='main-title'>Yurii Pochtiennykh</h1>
             <ul className='expertise-list'>
