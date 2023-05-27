@@ -36,7 +36,7 @@
 .section-one {
     background-image: url('../../images/photo.jpg');
     background-size: cover;
-    background-position: bottom left;
+    background-position: top left;
     min-height: 350px;
 }
 .section-two {
