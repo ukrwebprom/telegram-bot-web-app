@@ -12,7 +12,7 @@ export const Home = () => {
       </button>
       <header>
         <h1 className="main-title">Yurii Pochtiennykh</h1>
-        <ul className="expertise-list">
+        <ul className="expertise-list small-text">
           <li>Junior Full-Stack Developer</li>
           <li>Designer</li>
         </ul>
@@ -39,12 +39,13 @@ export const Home = () => {
           </section>
         </div>
 
-        <section className="section section-two">
-          <p className="section-text">
-            I have experience in various areas of design. Years ago I started
-            out as a outdoor advertising designer...
-          </p>
-          <Link className="read-more">Read more</Link>
+        <section className="section section-four">
+        <div className="section-contant no-background">
+        <p className="section-text">Websocket chat</p>
+        <p className="small-text">pet-project <br />Node js, React</p>
+        <a href="https://ukrwebprom.github.io/websocket-chat/" className="try-it-out">Try it out</a>
+        </div>
+          
         </section>
       </div>
     </div>
