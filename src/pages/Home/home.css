@@ -54,7 +54,7 @@
 .section-text {
     font-size: 12px;
     font-weight: 800;
-    color:var(--tg-theme-text-color)
+    color:var(--tg-theme-text-color);
     margin-bottom: 10px;
 }
 .read-more {
