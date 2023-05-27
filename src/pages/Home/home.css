@@ -47,18 +47,18 @@
     min-height: 200px;
 }
 .section-contant {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--tg-theme-bg-color);
     padding:10px;
     border-radius: 10px;
 }
 .section-text {
     font-size: 12px;
     font-weight: 800;
-    color:white;
+    color:var(--tg-theme-text-color)
     margin-bottom: 10px;
 }
 .read-more {
     font-size: 14px;
     font-weight: 800;
-    color:#64D0FF;
+    color:var(--tg-theme-link-color);
 }
