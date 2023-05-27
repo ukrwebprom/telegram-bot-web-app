@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding:15px;
+    padding:5px;
     gap:10px;
 }
 .section-one {
@@ -46,10 +46,16 @@
     background-position: bottom left;
     min-height: 200px;
 }
+.section-contant {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding:10px;
+    border-radius: 10px;
+}
 .section-text {
     font-size: 12px;
     font-weight: 800;
     color:white;
+    margin-bottom: 10px;
 }
 .read-more {
     font-size: 14px;

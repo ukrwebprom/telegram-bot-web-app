@@ -14,8 +14,10 @@ export const Home = () => {
             </ul>
             </header>
             <section className='section section-one'>
-            <p className='section-text'>I'm always looking for opportunities to enhance my skills and knowledge, and my last win is Front End developments expertise...</p>
-            <Link className='read-more'>Read more</Link>
+                <div className='section-contant'>
+                    <p className='section-text'>I'm always looking for opportunities to enhance my skills and knowledge, and my last win is Front End developments expertise...</p>
+                    <Link className='read-more'>Read more</Link>
+                </div>
             </section>
             <section className='section section-two'>
             <p className='section-text'>I have experience in various areas of design. Years ago I started out as a outdoor advertising designer...</p>
