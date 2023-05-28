@@ -29,7 +29,7 @@ export const Home = () => {
       </section>
       <section className="section section-three">
         <div className="section-header">
-          <h2>latest project</h2>
+          <h2>the latest project</h2>
           <a href="https://ukrwebprom.github.io/websocket-chat/" className="try-it-out">Try it out</a>
         </div>
         <div className="section-row">
