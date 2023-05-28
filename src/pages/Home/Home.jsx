@@ -1,7 +1,8 @@
-import "./home.css";
+import "./home.scss";
 import { Link } from "react-router-dom";
 import { useTelegram } from "../../hooks/useTelegram";
 import { ReactComponent as CloseIcon } from "../../images/close.svg";
+import chatlogo from '../../images/websocket-chat.png'
 
 export const Home = () => {
   const { close } = useTelegram();
@@ -21,33 +22,22 @@ export const Home = () => {
         <div className="section-contant">
           <p className="section-text">
             I'm always looking for opportunities to enhance my skills and
-            knowledge, and my last win is Front End developments expertise...
+            knowledge, and my last win is Full-Stack Dev expertise...
           </p>
-          <Link className="read-more">Read more</Link>
         </div>
       </section>
-      <div className="section-row">
-        <div className="section-col">
-          <section className="section section-two">
-          </section>
-          <section className="section section-three">
-            <p className="section-text">
-              I have experience in various areas of design. Years ago I started
-              out as a outdoor advertising designer...
-            </p>
-            <Link className="read-more">Read more</Link>
-          </section>
+      <section className="section section-three">
+        <div className="section-header">
+          <h2>latest project</h2>
+          <a href="https://ukrwebprom.github.io/websocket-chat/" className="try-it-out">Try it out</a>
         </div>
-
-        <section className="section section-four">
-        <div className="section-contant no-background">
-        <p className="section-text">Websocket chat</p>
-        <p className="small-text">pet-project <br />Node js, React</p>
-        <a href="https://ukrwebprom.github.io/websocket-chat/" className="try-it-out">Try it out</a>
+        <div className="section-row">
+          <img src={chatlogo} className="content-icons"/>
+        <p className="small-text">Websocket chat, made for fun and practice. Works and looks well on both desktop and mobile.</p>
+        
         </div>
           
-        </section>
-      </div>
+      </section>
     </div>
   );
 };

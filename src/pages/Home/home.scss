@@ -1,0 +1,121 @@
+.home-container {
+    width:100%;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.close-btn {
+/*     width:25px;
+    height:25px; */
+/*     background-image: url('../../images/close.svg');
+    background-position: center; */
+    background-color: transparent;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+.close-icon{
+    color:var(--tg-theme-text-color);
+    width:55px;
+    height:55px;
+}
+.main-title {
+    font-size: 19px;
+    color:var(--tg-theme-text-color);
+}
+.expertise-list {
+    list-style: none;
+    color:var(--tg-theme-text-color);
+}
+.small-text {
+    font-size: 12px;
+    font-weight: 400;
+}
+.section {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:5px;
+    gap:10px;
+}
+.section-row {
+    display:flex;
+    gap:15px;
+}
+.section-col {
+    display:flex;
+    flex-direction: column;
+    gap:10px; 
+}
+.content-icons {
+    width:60px;
+    height:60px;
+}
+.section-one {
+    background-image: url('../../images/photo.jpg');
+    background-size: cover;
+    background-position: top left;
+    min-height: 350px;
+}
+.section-two {
+    background-image: url('../../images/design.jpg');
+    background-size: cover;
+    background-position: bottom left;
+    min-height: 200px;
+}
+.section-three {
+    background-color: white;
+    min-height: 100px;
+    margin-top:20px;
+}
+.section-header {
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    & h2 {
+        /* text-transform: uppercase; */
+        font-size: 17px;
+        font-weight: 900;
+    }
+}
+.try-it-out {
+    font-size: 13px;
+    font-weight: 800;
+    color:#64D0FF;
+    text-decoration: none;
+}
+.section-four {
+    background-color: #E0D7C8;
+    background-image: url('../../images/websocket-chat.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    min-width: 50%;
+    min-height: 200px;
+}
+.section-contant {
+    background-color: var(--tg-theme-bg-color);
+    padding:10px;
+    border-radius: 10px;
+}
+.no-background {
+    background-color: transparent;
+}
+.section-text {
+    font-size: 12px;
+    font-weight: 800;
+    color:var(--tg-theme-text-color);
+    margin-bottom: 10px;
+}
+.read-more {
+    font-size: 13px;
+    font-weight: 800;
+    color:var(--tg-theme-link-color);
+}
