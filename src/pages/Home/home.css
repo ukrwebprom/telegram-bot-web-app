@@ -53,6 +53,7 @@
 .section-row {
   display: flex;
   gap: 15px;
+  align-items: center;
 }
 
 .section-col {
@@ -62,8 +63,8 @@
 }
 
 .content-icons {
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
 }
 
 .section-one {
@@ -130,7 +131,6 @@
   font-size: 12px;
   font-weight: 800;
   color: var(--tg-theme-text-color);
-  margin-bottom: 10px;
 }
 
 .read-more {

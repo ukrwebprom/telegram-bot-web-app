@@ -1,0 +1,12 @@
+.small-hint {
+    display:inline-block;
+    background-color: #126C80;
+    padding:2px 5px;
+    border-radius: 3px;
+    margin-right: 3px;
+    margin-top:5px;
+    & p{
+        font-size: 11px;
+        color:white;
+    }
+}

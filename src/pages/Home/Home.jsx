@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useTelegram } from "../../hooks/useTelegram";
 import { ReactComponent as CloseIcon } from "../../images/close.svg";
 import chatlogo from '../../images/websocket-chat.png'
+import { SmallHint } from "../../components/Hint/Hint";
 
 export const Home = () => {
   const { close } = useTelegram();
@@ -33,7 +34,13 @@ export const Home = () => {
         </div>
         <div className="section-row">
           <img src={chatlogo} className="content-icons"/>
-        <p className="small-text">Websocket chat, made for fun and practice. Works and looks well on both desktop and mobile.</p>
+          <div>
+            <p className="small-text">Websocket chat, made for fun and practice. Works and looks well on both desktop and mobile.</p>
+            <SmallHint>React</SmallHint>
+            <SmallHint>Node.js</SmallHint>
+            <SmallHint>Websocket</SmallHint>
+          </div>
+          
         
         </div>
           
