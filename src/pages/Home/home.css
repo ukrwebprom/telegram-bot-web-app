@@ -15,7 +15,7 @@
 .section-row {
   display: flex;
   gap: 15px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .section-col {
@@ -40,10 +40,8 @@
 }
 
 .section-two {
-  background-image: url("../../images/design.jpg");
-  background-size: cover;
-  background-position: bottom left;
-  min-height: 200px;
+  background-color: #E0D7C8;
+  padding: 20px;
 }
 
 .section-three {
@@ -52,17 +50,11 @@
   margin-top: 20px;
 }
 
-.section-header {
-  border-bottom: 1px solid black;
-  padding-bottom: 7px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.section-header h2 {
-  /* text-transform: uppercase; */
-  font-size: 17px;
+.capital-title {
+  text-transform: uppercase;
+  font-size: 13px;
   font-weight: 900;
+  margin-bottom: 10px;
 }
 
 .try-it-out {
@@ -99,6 +91,7 @@
   font-size: 12px;
   font-weight: 800;
   color: var(--tg-theme-text-color);
+  margin-bottom: 20px;
 }
 
 .skills-link {

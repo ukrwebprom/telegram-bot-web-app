@@ -18,7 +18,17 @@ export const Home = () => {
         </div>
         <Link to='skills' className="skills-link">Skills list</Link>
       </section>
-      <section className="section section-three">
+      <section className="section-row">
+        <div className="section section-two">
+        <img src={chatlogo} className="content-icons"/>
+        </div>
+        <div>
+          <h2 className="capital-title">The latest project</h2>
+          <p className="small-text">Websocket chat, made for fun and practice. Works and looks well on both desktop and mobile.</p>
+          <a href="https://ukrwebprom.github.io/websocket-chat/" className="try-it-out">Try it out</a>
+        </div>
+      </section>
+{/*       <section className="section section-three">
         <div className="section-header">
           <h2>The latest project</h2>
           <a href="https://ukrwebprom.github.io/websocket-chat/" className="try-it-out">Try it out</a>
@@ -35,7 +45,7 @@ export const Home = () => {
         
         </div>
           
-      </section>
+      </section> */}
     </>
   );
 };
