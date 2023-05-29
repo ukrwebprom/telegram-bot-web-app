@@ -8,17 +8,7 @@ import { SmallHint } from "../../components/Hint/Hint";
 export const Home = () => {
   const { close } = useTelegram();
   return (
-    <div className="home-container">
-      <button type="button" className="close-btn" onClick={close}>
-        <CloseIcon className="close-icon" />
-      </button>
-      <header>
-        <h1 className="main-title">Yurii Pochtiennykh</h1>
-        <ul className="expertise-list small-text">
-          <li>Junior Full-Stack Developer</li>
-          <li>Designer</li>
-        </ul>
-      </header>
+    <>
       <section className="section section-one">
         <div className="section-contant">
           <p className="section-text">
@@ -29,7 +19,7 @@ export const Home = () => {
       </section>
       <section className="section section-three">
         <div className="section-header">
-          <h2>the latest project</h2>
+          <h2>The latest project</h2>
           <a href="https://ukrwebprom.github.io/websocket-chat/" className="try-it-out">Try it out</a>
         </div>
         <div className="section-row">
@@ -45,6 +35,6 @@ export const Home = () => {
         </div>
           
       </section>
-    </div>
+    </>
   );
 };
