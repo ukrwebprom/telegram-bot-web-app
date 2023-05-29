@@ -2,6 +2,7 @@
 .small-text {
     font-size: 12px;
     font-weight: 400;
+    color:var(--tg-theme-text-color);
 }
 .section {
     border-radius: 15px;
@@ -48,6 +49,7 @@
     font-size: 13px;
     font-weight: 900;
     margin-bottom:10px;
+    color:var(--tg-theme-text-color);
 }
 .try-it-out {
     font-size: 13px;
