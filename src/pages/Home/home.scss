@@ -1,11 +1,4 @@
-.main-title {
-    font-size: 19px;
-    color:var(--tg-theme-text-color);
-}
-.expertise-list {
-    list-style: none;
-    color:var(--tg-theme-text-color);
-}
+
 .small-text {
     font-size: 12px;
     font-weight: 400;
@@ -33,10 +26,12 @@
     height:65px;
 }
 .section-one {
+    background-color: #46433E;
     background-image: url('../../images/photo.jpg');
     background-size: cover;
     background-position: top left;
-    min-height: 350px;
+    min-height: 400px;
+    position: relative;
 }
 .section-two {
     background-image: url('../../images/design.jpg');
@@ -78,8 +73,12 @@
 }
 .section-contant {
     background-color: var(--tg-theme-bg-color);
-    padding:10px;
+    background-color: white;
+    padding:20px 20px 20px 40px;
     border-radius: 10px;
+    position: relative;
+    bottom:30px;
+    right:-20px;
 }
 .no-background {
     background-color: transparent;

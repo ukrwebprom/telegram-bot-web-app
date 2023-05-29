@@ -27,12 +27,23 @@
     top:70px;
     right:20px;
     padding:15px;
+    z-index:10;
     & ul {
         list-style: none;
         text-align: right;
 
         & li {
             margin-bottom: 10px;
+            cursor:pointer;
         }
     }
+}
+
+.main-title {
+    font-size: 19px;
+    color:var(--tg-theme-text-color);
+}
+.expertise-list {
+    list-style: none;
+    color:var(--tg-theme-text-color);
 }

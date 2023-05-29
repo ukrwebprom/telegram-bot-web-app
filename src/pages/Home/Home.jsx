@@ -16,6 +16,7 @@ export const Home = () => {
             knowledge, and my last win is Full-Stack Dev expertise...
           </p>
         </div>
+        <p>Skills list</p>
       </section>
       <section className="section section-three">
         <div className="section-header">
