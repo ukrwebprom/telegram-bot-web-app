@@ -32,6 +32,7 @@
     background-position: top left;
     min-height: 400px;
     position: relative;
+    align-items: flex-end;
 }
 .section-two {
     background-image: url('../../images/design.jpg');
@@ -88,8 +89,12 @@
     font-weight: 800;
     color:var(--tg-theme-text-color);
 }
-.read-more {
+.skills-link {
     font-size: 13px;
     font-weight: 800;
-    color:var(--tg-theme-link-color);
+    color:white;
+    position: relative;
+    bottom:15px;
+    right:15px;
+    text-decoration: none;
 }
