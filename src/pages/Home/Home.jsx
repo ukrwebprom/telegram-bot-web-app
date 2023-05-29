@@ -35,26 +35,8 @@ export const Home = () => {
       <p>I have experience working as a web designer and I'm proficient in design software, which allows me to effectively collaborate with designers as a developer.</p>
       <p>I have also had experience as a project manager, which has honed my communication skills and enabled me to interact with clients effectively.</p>
       <strong>Now, I want to challenge myself and dive into coding and development directly.</strong>
-      <a href="Yuriy-Pochtiennykh-Junior-Front-end-developer.pdf">Yurii Pochtiennykh (.pdf)</a>
+      <a href="Yuriy-Pochtiennykh-Junior-Front-end-developer.pdf">Yurii Pochtiennykh CV (.pdf)</a>
       </section>
-{/*       <section className="section section-three">
-        <div className="section-header">
-          <h2>The latest project</h2>
-          <a href="https://ukrwebprom.github.io/websocket-chat/" className="try-it-out">Try it out</a>
-        </div>
-        <div className="section-row">
-          <img src={chatlogo} className="content-icons"/>
-          <div>
-            <p className="small-text">Websocket chat, made for fun and practice. Works and looks well on both desktop and mobile.</p>
-            <SmallHint>React</SmallHint>
-            <SmallHint>Node.js</SmallHint>
-            <SmallHint>Websocket</SmallHint>
-          </div>
-          
-        
-        </div>
-          
-      </section> */}
     </>
   );
 };
