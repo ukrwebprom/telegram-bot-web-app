@@ -92,3 +92,21 @@
     right:15px;
     text-decoration: none;
 }
+.text-section {
+    padding:25px;
+    font-size: 14px;
+    font-weight: 400;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    & h2 {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 30px;
+    }
+    & a {
+        font-size: 13px;
+        font-weight: 800;
+        color:#64D0FF;
+    }
+}
