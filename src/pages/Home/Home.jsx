@@ -30,12 +30,12 @@ export const Home = () => {
       </section>
       <section className="text-section">
       <h2>why me?</h2>
-      <strong>I'm a junior developer but I'm not new to IT and I know how it works.</strong>
-      <p>I have been involved in the creation of several startups and I know how great systems come from a simple idea.</p>
-      <p>I worked as a web designer, I am fluent in design programs and I know how a developer interacts with a designer.</p>
-      <p>I was a project manager and I know how to communicate with clients.</p>
-      <strong>Now I want to try my hand at writing code.</strong>
-      <a>Yurii Pochtiennykh (.pdf)</a>
+      <strong>I'm a junior developer, but I'm not a newcomer to IT , and I have a good understanding of how things work.</strong>
+      <p>I have been involved in the creation of several startups, and I understand how great projects start from a simple idea.</p>
+      <p>I have experience working as a web designer and I'm proficient in design software, which allows me to effectively collaborate with designers as a developer.</p>
+      <p>I have also had experience as a project manager, which has honed my communication skills and enabled me to interact with clients effectively.</p>
+      <strong>Now, I want to challenge myself and dive into coding and development directly.</strong>
+      <a href="Yuriy-Pochtiennykh-Junior-Front-end-developer.pdf">Yurii Pochtiennykh (.pdf)</a>
       </section>
 {/*       <section className="section section-three">
         <div className="section-header">
