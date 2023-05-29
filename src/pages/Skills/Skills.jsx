@@ -1,7 +1,9 @@
+import './skills.scss';
+
 export const Skills = () => {
     return(
-        <div>
-            <h2>hard skills</h2>
+        <div className='skills'>
+            <h2 className='hard'>hard skills</h2>
             <ul>
                 <li>HTML5</li>
                 <li>CSS/SASS</li>
@@ -10,7 +12,7 @@ export const Skills = () => {
                 <li>Redux</li>
                 <li>Node.js</li>
             </ul>
-            <h2>medium skills</h2>
+            <h2 className='medium'>medium skills</h2>
             <ul>
                 <li>Responsive / Adaptive design</li>
                 <li>REST API</li>
@@ -19,7 +21,7 @@ export const Skills = () => {
                 <li>Git</li>
                 <li>Extensive skills in design area</li>
             </ul>
-            <h2>soft skills</h2>
+            <h2 className='soft'>soft skills</h2>
             <ul>
                 <li>Friendliness</li>
                 <li>Self-motivation</li>

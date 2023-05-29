@@ -1,0 +1,19 @@
+.skills {
+    & h2 {
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    & ul {
+        list-style: none;
+        margin-bottom:15px;
+    }
+}
+.hard {
+    font-weight: 900;
+}
+.soft {
+    font-weight: 300;
+}
+.medium {
+    font-weight: 600;
+}
