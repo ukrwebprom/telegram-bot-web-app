@@ -6,9 +6,11 @@ import { Link } from "react-router-dom";
 
 export const Layout = () => {
     const [menu, setMenu] = useState(false);
+
     const toggleMenu = () => {
         setMenu(c => !c);
     }
+
   return (
     <div className="home-container">
         <header>
@@ -24,8 +26,8 @@ export const Layout = () => {
       {menu && 
         <div className="menu">
             <ul>
-                <li><Link to='/'>Home</Link></li>
-                <li><Link to='skills'>My Skills</Link></li>
+                <li><Link to='/' onClick={toggleMenu}>Home</Link></li>
+                <li><Link to='/skills' onClick={toggleMenu}>My Skills</Link></li>
                 <li>Contacts & links</li>
             </ul>
         </div>
