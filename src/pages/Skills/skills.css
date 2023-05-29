@@ -1,7 +1,8 @@
 .skills h2 {
   text-transform: uppercase;
   font-size: 30px;
-  border-top: 1px solid black;
+  border-top: 1px solid #64D0FF;
+  color: #64D0FF;
 }
 .skills ul {
   list-style: none;
