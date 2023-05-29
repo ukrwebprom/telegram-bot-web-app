@@ -28,7 +28,7 @@ export const Skills = () => {
                 <li>Fast learner</li>
                 <li>Meeting deadlines</li>
                 <li>Focus on the task</li>
-                <li>Nine to five mentality</li>
+                <li className='exclude'>Nine to five mentality</li>
             </ul>
         </div>
     )
