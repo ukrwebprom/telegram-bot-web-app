@@ -28,7 +28,7 @@ export const Layout = () => {
             <ul>
                 <li><Link to='/' onClick={toggleMenu}>Home</Link></li>
                 <li><Link to='/skills' onClick={toggleMenu}>My Skills</Link></li>
-                <li>Contacts & links</li>
+                <li><Link to='/contacts' onClick={toggleMenu}>Contacts & links</Link></li>
             </ul>
         </div>
       }
