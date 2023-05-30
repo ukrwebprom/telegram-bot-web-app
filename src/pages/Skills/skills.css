@@ -1,3 +1,6 @@
+.skills {
+  color: var(--tg-theme-text-color);
+}
 .skills h2 {
   text-transform: uppercase;
   font-size: 30px;

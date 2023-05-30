@@ -7,5 +7,9 @@
 .contact-item {
   margin-bottom: 10px;
   padding-bottom: 5px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--tg-theme-text-color);
+  color: var(--tg-theme-text-color);
+}
+.contact-item a {
+  color: #64D0FF;
 }/*# sourceMappingURL=contactitem.css.map */
