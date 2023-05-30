@@ -1,8 +1,9 @@
-import { ContactItem } from "../../components/ContactItem/ContactItem"
+import { ContactItem } from "../../components/ContactItem/ContactItem";
+import './contacts.scss';
 
 export const Contacts = () => {
     return(
-        <div>
+        <div className="contacts">
             <h2 >contacts & links</h2>
             <ContactItem name={'Location'}>Odessa, Ukraine</ContactItem>
             <ContactItem name={'Phone'}>+380 96 333 6533</ContactItem>
